@@ -1,0 +1,16 @@
+# Segredos reais
+.env
+.env.*
+!.env.example
+
+# Backups e dados gerados localmente
+backups/
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+.DS_Store
